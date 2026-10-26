@@ -1,0 +1,59 @@
+html{
+    background-color: #71adc2;
+}
+
+h2{
+    color: rgb(87, 169, 29);
+}
+
+
+code{
+    background-color: rgba(0, 0, 0, .2);
+}
+
+.wrapper{
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.site-header{
+    background-color: rgb(237, 112, 54);
+    border-radius: 20px 20px 0 0;
+    padding: 20px 20px 0 20px;
+    color: white;
+}
+
+.site-main{
+    background-color: rgb(233, 224, 210);
+    border-radius: 0 0 20px 20px;
+    padding: 20px;
+}
+
+.head-nav{
+    list-style: none;
+    display: flex;
+    padding: 0px;
+    margin: 10px 0 0 0;
+    justify-content: space-between;
+    gap: 4px;
+}
+
+.head-nav li{
+    flex: 1 1 0;
+}
+
+.bocc{
+    background-color: rgb(198, 87, 8);
+    display: block;
+    padding: 20px 0;
+    border-radius: 10px 10px 0 0;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+
+}
+
+
+.current-page {
+    background-color: rgb(233, 224, 210);
+}
